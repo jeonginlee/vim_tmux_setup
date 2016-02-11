@@ -54,9 +54,12 @@ inoremap jk  <esc>
 inoremap kj  <esc>
 inoremap <esc>	 <nop>
 
-" No arrow keys EVER
+" No arrow keys in normal mode. Can't fix insert mode yet...
 noremap <left>   <nop>
-inoremap <left>  <nop>
+noremap <right>  <nop>
+noremap <up>	 <nop>
+noremap <down>	 <nop>
+
 
 " Tabbing display and keymapping-------------------------------------------
 function MyTabLine()
