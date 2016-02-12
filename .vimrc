@@ -52,6 +52,8 @@ autocmd InsertLeave * :set relativenumber
 " No escape key!
 inoremap jk  <esc>
 inoremap kj  <esc>
+inoremap hj  <esc>
+inoremap jh  <esc> 
 inoremap <esc>	 <nop>
 
 " No arrow keys in normal mode. Can't fix insert mode yet...
@@ -59,6 +61,11 @@ noremap <left>   <nop>
 noremap <right>  <nop>
 noremap <up>	 <nop>
 noremap <down>	 <nop>
+inoremap <down>  <nop>
+inoremap <up>    <nop>
+inoremap <right> <nop>
+inoremap <left>  <nop>
+
 
 
 " Tabbing display and keymapping-------------------------------------------
