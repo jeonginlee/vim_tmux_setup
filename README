@@ -1,0 +1,19 @@
+// Lots of help and resources from Steve (sgodbold)
+
+Set up for Vim:
+
+ -- Install Vundle --
+	git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+ -- Install all plugins --
+	:PluginInstall (inside of vim)
+
+
+Set up for tmux:
+
+Place the file tmux.conf in either ~/ for user settings, or /etc/ for global
+settings
+
+Add to your bash.rc: TERM=screen-256color [[ -z "$TMUX" ]]
+
+Leader mapped to C-a

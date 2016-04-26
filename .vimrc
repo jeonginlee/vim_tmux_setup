@@ -75,7 +75,6 @@ fixdel
 set backspace=indent,eol,start
 
 
-
 " Tabbing display and keymapping-------------------------------------------
 function MyTabLine()
   let line = 'Tabs:'
@@ -123,7 +122,6 @@ noremap <leader>0 :tablast<cr>
 
 " Map za to space for opening and closing folds
 noremap <space> za
-
 
 " Set auto indentations for Python
 filetype indent plugin on
