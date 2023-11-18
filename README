@@ -1,13 +1,7 @@
-// Lots of help and resources from Steve (sgodbold)
-
 Set up for Vim:
 
- -- Install Vundle --
-	git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-
- -- Install all plugins --
-	:PluginInstall (inside of vim)
-
+Windows:
+	Set environment variable $VIM to this directory
 
 Set up for tmux:
 
