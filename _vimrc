@@ -7,6 +7,7 @@ call plug#begin()
 " " You can specify a custom plugin directory by passing it as the argument
 " "   - e.g. `call plug#begin('~/.vim/plugged')`
 " "   - Avoid using standard Vim directory names like 'plugin'
+Plug 'sonph/onehalf', { 'rtp': 'vim' }
 
 " Initialize plugin system
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
@@ -39,7 +40,6 @@ set hlsearch						" highlights search
 set incsearch						" incremental search
 set ruler
 set tw=80							" tab width
-syntax on
 
 set backspace=indent,eol,start
 
@@ -50,6 +50,11 @@ set foldlevel=99									" fold all the way
 
 noremap <space> za                                  " Map za to space for opening and closing folds
 
+" Settings for sonph/onehal colorscheme
+syntax on
+set t_Co=256
+set cursorline
+colorscheme onehalfdark
 
 " Tab settings ----------------------------------------------------------------
 function MyTabLine()
